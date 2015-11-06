@@ -1,5 +1,6 @@
 /*!
- * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ From
+ *  Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -243,3 +244,5 @@ footer {
     border-bottom: 1px solid lightgray;
     margin-bottom: 20px;
 }
+
+.clear{clear:both;}

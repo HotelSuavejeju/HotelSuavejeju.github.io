@@ -168,13 +168,12 @@
 		//loaded
 		$(function() {
 			document.frm_payment.merchant_uid.value = 'merchant_' + new Date().getTime();
-			document.frm_payment.vbank_due.value = moment().add(2, 'day').format('YYYYMMDD');
-
+			
 			$('#requester').click(function() {
 				var frm = document.frm_payment;
 				var IMP = window.IMP;
 				var escrow = $(frm.use_escrow).is(':checked')
-
+          
 
 				if ( frm.pg_provider.value == 'nice' ) {
 					IMP.init('imp99080925');

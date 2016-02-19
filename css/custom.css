@@ -14,7 +14,8 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css)
+ font-family: 'Noto Sans KR', sans-serif;
 }
 
 .text-vertical-center {
@@ -224,7 +225,9 @@ hr.small {
 /* Map */
 
 .map {
-    height: 500px;
+    display: block;
+    margin-left: 30%;
+    
 }
 
 @media(max-width:768px) {
